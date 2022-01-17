@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .block {
+    width: 200px;
+    height: 200px;
+    background-color: #008;
+    position: absolute;
+    animation-name: kubik;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+
+@keyframes kubik {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 0;
+        left: calc(100% - 200px);
+        background-color: #f44;
+    }
+
+    50% {
+        top: calc(100vh - 200px);
+        left: calc(100% - 200px);
+        background-color: #008;
+    }
+
+    75% {
+        top: calc(100vh - 200px);
+        left: 0;
+        background-color: yellow;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        background-color: #008;
+    }
+} */
+
+
+.first_col_h {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    animation-name: first_col_h;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 20vh;
+    left: 40px;
+}
+
+@keyframes first_col_h {
+    100% {
+        height: 400px;
+    }
+}
+
+.center_row_h {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    left: 40px;
+    top: 43vh;
+    visibility: hidden;
+    animation-name: center_row_h;
+    animation-delay: 5s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes center_row_h {
+    100% {
+        visibility: visible;
+        width: 190px;
+    }
+}
+
+.last_col_h {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    left: 190px;
+    top: 43vh;
+    visibility: hidden;
+    animation-name: last_col_h;
+    animation-delay: 8s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes last_col_h {
+    100% {
+        visibility: visible;
+        height: 400px;
+        top: 20vh;
+    }
+}
+
+.first_e {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    left: 190px;
+    top: 20vh;
+    visibility: hidden;
+    animation-name: first_e;
+    animation-delay: 11s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes first_e {
+    100% {
+        left: 300px;
+        visibility: visible;
+        height: 400px;
+    }
+}
+
+.first_row_e {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    left: 300px;
+    top: 20vh;
+    visibility: hidden;
+    animation-name: first_row_e;
+    animation-delay: 14s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes first_row_e {
+    100% {
+        visibility: visible;
+        width: 190px;
+    }
+}
+
+.center_row_e {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    left: 300px;
+    top: 43vh;
+    visibility: hidden;
+    animation-name: center_row_e ;
+    animation-delay: 17s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes center_row_e {
+    100% {
+        visibility: visible;
+        width: 190px;
+    }
+}
+
+.last_row_e {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    left: 300px;
+    top: 68vh;
+    visibility: hidden;
+    animation-name: last_row_e ;
+    animation-delay: 20s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes last_row_e {
+    100% {
+        visibility: visible;
+        width: 190px;
+    }
+}
+
+.first_l {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    left: 450px;
+    top: 20vh;
+    visibility: hidden;
+    animation-name: first_l;
+    animation-delay: 23s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes first_l {
+    100% {
+        left: 570px;
+        visibility: visible;
+        height: 400px;
+    }
+}
+
+.first_l_row {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    left: 570px;
+    top: 68vh;
+    visibility: hidden;
+    animation-name: first_l_row;
+    animation-delay: 26s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes first_l_row {
+    100% {
+        visibility: visible;
+        width: 190px;
+    }
+}
+
+.second_l {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    left: 570px;
+    top: 20vh;
+    visibility: hidden;
+    animation-name: second_l;
+    animation-delay: 29s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes second_l {
+    100% {
+        left: 850px;
+        visibility: visible;
+        height: 400px;
+    }
+}
+
+.second_l_row {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    left: 850px;
+    top: 68vh;
+    visibility: hidden;
+    animation-name: second_l_row;
+    animation-delay: 32s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes second_l_row {
+    100% {
+        visibility: visible;
+        width: 190px;
+    }
+}
+
+.first_col_o {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    left: 1000px;
+    top: 20vh;
+    visibility: hidden;
+    animation-name: first_col_o;
+    animation-delay: 35s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes first_col_o {
+    100% {
+        visibility: visible;
+        height: 400px;
+        left: 1150px;
+    }
+}
+
+.first_row_o {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    left: 1150px;
+    top: 20vh;
+    visibility: hidden;
+    animation-name: first_row_o;
+    animation-delay: 38s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes first_row_o {
+    100% {
+        visibility: visible;
+        width: 190px;
+    }
+}
+
+.last_col_o {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    left: 1300px;
+    top: 20vh;
+    visibility: hidden;
+    animation-name: last_col_o;
+    animation-delay: 41s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes last_col_o {
+    100% {
+        visibility: visible;
+        height: 400px;
+    }
+}
+
+.last_row_o {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    left: 1150px;
+    top: 67.7vh;
+    visibility: hidden;
+    animation-name: last_row_o;
+    animation-delay: 44s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes last_row_o {
+    100% {
+        visibility: visible;
+        width: 190px;
+    }
+}
